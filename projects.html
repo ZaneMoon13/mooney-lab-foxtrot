@@ -75,11 +75,11 @@
     <div class="row content">
       <div class="col-sm-2 sidenav">
           <h4>Cool Social Media Stuff:</h4>
-        <p><a href="https://twitter.com/mooney_zane"target="_blank">Twitter</a></p>
+        <p><a href="https://twitter.com/mooney_zane" target="_blank">Twitter</a></p>
         <p><a href="https://www.linkedin.com/in/zane-mooney/" target="_blank">LinkedIn</a></p>
         <p><a href="https://www.instagram.com/zane_mooney/" target="_blank">Instagram</a></p>
         <br>
-        <img src=imgs/myself.jpeg width='150' height='150'>
+        <img src=imgs/myself.jpeg alt="Me" width='150' height='150'>
       </div>
 
 
@@ -93,9 +93,28 @@
           <li><a href="https://zanemoon13.github.io/lab-echo/pages/wow_game.html">Doge Game (Pretty Wow)</a></li>
       </ul>
       <hr>
+
       <h3>Description</h3>
       <p>The "Old Welcome Page" is the culmination of a twelve year old's dream project. Flashy colors, shapes, and effects light up the screen as you click on the link. However, you are allowed to get some love if you type your name!</p>
       <p>The "Doge Game (Pretty Wow)" is one of the leading triple A games that is on the market right now. The amount of blood, sweat, tears, and hours put into this game is why I think it deserves game of the year. I did NOT (100% trust me no prank) steal half of the code from Dr. Cumbie and the great website W3. Why would a college student use W3? We should already know this!</p>
+      <hr>
+
+      <h4>Some Cool Things:</h4>
+      <!-- TEXT HIDDEN AND SHOWN -->
+      <p id="p1">Have you drank water today?</p> 
+        <input type="button" value="Hide text" 
+        onclick="document.getElementById('p1').style.visibility='hidden'">
+        <input type="button" value="Show text"
+        onclick="document.getElementById('p1').style.visibility='visible'">
+        <br>
+        <br>
+      <!-- SHOW THE CURRENT DATE AND TIME -->
+        <p id="demo"></p>
+        <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+
+        
+
     </div>
 
 
@@ -103,12 +122,12 @@
 
     <div class="col-sm-2 sidenav">
       <div class="well">
-        <img src=imgs/Akali.jpg alt="Akali" width="125" height="125">
+        <img src=imgs/Akali.jpg alt="Akali" width="150" height="100">
         <P>Want to learn more about a character I love? Click <a href=https://leagueoflegends.fandom.com/wiki/Akali/LoL>here.</a></P>
       </div>
       <div class="well">
         <img src=imgs/una.jpg alt="UNA's campus" width='150' height='100'>
-        <p>Check out the <a href=una.edu>University of North Alabama's Website!</a></p>
+        <p>Check out the <a href=una.edu>University of North Alabama!</a></p>
       </div>
     </div>
   </div>
