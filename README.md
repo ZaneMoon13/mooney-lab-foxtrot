@@ -22,14 +22,14 @@
 
 ## Min. Acceptance Criteria / RUBRIC
 - [ ] submit a functioning github pages link
-- [x ] links to repo, link to code
-- [x ] clean, common, logical layout
-- [x ] pic: formatted, sized, text overlay
-- [x ] code: directory/strucutre, naming
-- [x ] code: html, valid & clean, comments
+- [x] links to repo, link to code
+- [x] clean, common, logical layout
+- [x] pic: formatted, sized, text overlay
+- [x] code: directory/strucutre, naming
+- [x] code: html, valid & clean, comments
 - [ ] code: css, external, logical, utilize BS classes first
 - [ ] code: js, jQuery, comments, functions, logical, clean
-- [x ] content: bs card w/dev skills
-- [x ] content: resources, links
+- [x] content: bs card w/dev skills
+- [x] content: resources, links
 - [ ] f/n: load resources into DOM from data object
 - [ ] fridge factor: is this worthy of hangning on a fridge? 
