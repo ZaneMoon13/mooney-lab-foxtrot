@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -75,6 +76,7 @@
     <div class="row content">
       <div class="col-sm-2 sidenav">
           <h4>Cool Social Media Stuff:</h4>
+          <p>(May Require Login)</p>
         <p><a href="https://twitter.com/mooney_zane" target="_blank">Twitter</a></p>
         <p><a href="https://www.linkedin.com/in/zane-mooney/" target="_blank">LinkedIn</a></p>
         <p><a href="https://www.instagram.com/zane_mooney/" target="_blank">Instagram</a></p>
@@ -88,10 +90,19 @@
     <div class="col-sm-8 text-left"> 
       <h1>Hey Dr. Cumbie!</h1>
       <p>Here are some of the really poorly made projects I currently have:</p>
-      <ul>
-          <li><a href="https://zanemoon13.github.io/lab-echo/">Old Welcome Page</a></li>
-          <li><a href="https://zanemoon13.github.io/lab-echo/pages/wow_game.html">Doge Game (Pretty Wow)</a></li>
-      </ul>
+      <div id="firstCard" class='card text-center mx-auto bg-dark blue' style="width: 200px">
+        <button class='cardOpen2 btn btn-outline-info'>Old Welcome Page</button>
+        <div class='cardHide'>
+            <br>
+            <a href="https://zanemoon13.github.io/lab-echo/" class="link-info" >GAME LINK</a>
+            <p class="text-white">Created by: Zane Mooney</p>
+            <br>
+            <button class='btn btn-outline-info cardClose2'>Close</button>  
+            <br>      
+        </div>
+        <br>
+    </div>
+    <br>
       <hr>
 
       <h3>Description</h3>
@@ -122,7 +133,7 @@
 
     <div class="col-sm-2 sidenav">
       <div class="well">
-        <img src=imgs/Akali.jpg alt="Akali" width="150" height="100">
+        <img src=imgs/akali.jpg alt="Akali" width="150" height="100">
         <P>Want to learn more about a character I love? Click <a href=https://leagueoflegends.fandom.com/wiki/Akali/LoL target="_blank">here.</a></P>
       </div>
       <div class="well">
@@ -140,6 +151,9 @@
     <p>Don't Steal My Stuff Or Whatever©</p>
     <P>100% Satirical</P>
   </footer>
+
+  <script src="jS/scripts.js"></script>
+  <script src="jS/dev_skills.js"></script>
 
 </body>
 </html>

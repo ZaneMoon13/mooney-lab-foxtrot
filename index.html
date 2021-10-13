@@ -7,39 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body onload="console.log('Welcome to my home page!');">
@@ -77,6 +45,7 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
         <h4>Cool Social Media Stuff:</h4>
+        <p>(May Require Login)</p>
       <p><a href="https://twitter.com/mooney_zane" target="_blank">Twitter</a></p>
       <p><a href="https://www.linkedin.com/in/zane-mooney/" target="_blank">LinkedIn</a></p>
       <p><a href="https://www.instagram.com/zane_mooney/" target="_blank">Instagram</a></p>
@@ -93,15 +62,22 @@
       <p>The header will guide you through this amazing website. I know it may seem like a lot, and you might get scared, but there should be nothing to fear about clicking some links... right?</p>
       <hr>
       <h4>About:</h4>
-      <p>Born in 2000, I was raised in <a href="https://www.tallasseeal.gov/" target="_blank">Tallassee, AL</a>.</p>
-      <p>I grew up playing MMOs in my sparetime between playing baseball and football! My favorite MMOs (going from early childhood and up) are ToonTown, Guild Wars 2, and Runescape (now Oldschool Runescape).</p>
-      <p>I have a girlfriend of almost 4 years, Susan Grace Coker. We recently got a dog named Luke Skywalker!</p>
-    </div>
+            <ul>
+              <li>Born in 2000, I was raised in <a href="https://www.tallasseeal.gov/" target="_blank">Tallassee, AL</a>.</li>
+              <li>I grew up playing MMOs in my sparetime between playing baseball and football! My favorite MMOs (going from early childhood and up) are ToonTown, Guild Wars 2, and Runescape (now Oldschool Runescape).</li>
+              <li>I have a girlfriend of almost 4 years, Susan Grace Coker. We recently got a dog named Luke Skywalker!</li>    
+            </ul>
+         </div>
 
 <!-- RIGHT SIDE  -->
     <div class="col-sm-2 sidenav">
       <div class="well">
-        <img src=imgs/Lucio_portrait.png alt="Portrait of Lucio" width="75" height="100">
+        <div class="container">
+          <img src="imgs/lucio_portrait.png" alt="Portrait of Lucio" class="image" width="75" height="100">
+          <div class="middle">
+            <div class="text">Lucio Oh Oh's!</div>
+          </div>
+        </div>
         <p>Want to learn about Lucio, a character I play in Overwatch? Click <a href=https://playoverwatch.com/en-us/heroes/lucio/ target="_blank">here!</a></p>
       </div>
       <div class="well">
@@ -111,6 +87,8 @@
     </div>
   </div>
 </div>
+
+<br>
 <br>
 <br>
 
@@ -120,5 +98,7 @@
   <p>Don't Steal My Stuff Or Whatever©</p>
 </footer>
 
+<script src="jS/scripts.js"></script>
+<script src="jS/dev_skills.js"></script>
 </body>
 </html>
